@@ -1,0 +1,318 @@
+     1	assets by status 1.99 MiB [cached] 2 assets
+     2	orphan modules 706 KiB [orphan] 44 modules
+     3	runtime modules 1.28 KiB 7 modules
+     4	javascript modules 3.26 MiB
+     5	  modules by path ../node_modules/ 2.76 MiB 353 modules
+     6	  optional modules 150 bytes [optional] 10 modules
+     7	  ./src/index.js + 1 modules 506 KiB [built] [code generated]
+     8	  util (ignored) 15 bytes [built] [code generated]
+     9	  util (ignored) 15 bytes [built] [code generated]
+    10	json modules 702 KiB
+    11	  modules by path ../node_modules/@ethereumjs/ 670 KiB 51 modules
+    12	  modules by path ../node_modules/browserify-sign/ 2.23 KiB
+    13	    ../node_modules/browserify-sign/browser/algorithms.json 2.07 KiB [built] [code generated]
+    14	    ../node_modules/browserify-sign/browser/curves.json 162 bytes [built] [code generated]
+    15	  + 8 modules
+    16	
+    17	WARNING in configuration
+    18	The 'mode' option has not been set, webpack will fallback to 'production' for this value.
+    19	Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+    20	You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+    21	
+    22	ERROR in ../node_modules/@ethereumjs/common/dist.browser/index.js 41:15-32
+    23	Module not found: Error: Can't resolve 'events' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/@ethereumjs/common/dist.browser'
+    24	
+    25	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+    26	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+    27	
+    28	If you want to include a polyfill, you need to:
+    29		- add a fallback 'resolve.fallback: { "events": require.resolve("events/") }'
+    30		- install 'events'
+    31	If you don't want to include a polyfill, you can use an empty module like this:
+    32		resolve.fallback: { "events": false }
+    33	 @ ../node_modules/web3-eth-accounts/lib/index.js 32:13-50 33:16-54
+    34	 @ ../node_modules/web3-eth/lib/index.js 33:15-43
+    35	 @ ../node_modules/web3/lib/index.js 30:10-29
+    36	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+    37	
+    38	ERROR in ../node_modules/cipher-base/index.js 2:16-43
+    39	Module not found: Error: Can't resolve 'stream' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/cipher-base'
+    40	
+    41	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+    42	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+    43	
+    44	If you want to include a polyfill, you need to:
+    45		- add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+    46		- install 'stream-browserify'
+    47	If you don't want to include a polyfill, you can use an empty module like this:
+    48		resolve.fallback: { "stream": false }
+    49	 @ ../node_modules/create-hash/browser.js 6:11-33
+    50	 @ ../node_modules/crypto-browserify/index.js 4:21-58
+    51	 @ ../node_modules/web3-eth-accounts/lib/index.js 26:45-73
+    52	 @ ../node_modules/web3-eth/lib/index.js 33:15-43
+    53	 @ ../node_modules/web3/lib/index.js 30:10-29
+    54	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+    55	
+    56	ERROR in ../node_modules/eth-lib/lib/bytes.js 9:193-227
+    57	Module not found: Error: Can't resolve 'crypto' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/eth-lib/lib'
+    58	
+    59	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+    60	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+    61	
+    62	If you want to include a polyfill, you need to:
+    63		- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+    64		- install 'crypto-browserify'
+    65	If you don't want to include a polyfill, you can use an empty module like this:
+    66		resolve.fallback: { "crypto": false }
+    67	 @ ../node_modules/swarm-js/lib/api-browser.js 32:12-40
+    68	 @ ../node_modules/web3-bzz/lib/index.js 23:12-31
+    69	 @ ../node_modules/web3/lib/index.js 34:10-29
+    70	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+    71	
+    72	ERROR in ../node_modules/ethereumjs-util/dist.browser/account.js 23:31-48
+    73	Module not found: Error: Can't resolve 'assert' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/ethereumjs-util/dist.browser'
+    74	
+    75	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+    76	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+    77	
+    78	If you want to include a polyfill, you need to:
+    79		- add a fallback 'resolve.fallback: { "assert": require.resolve("assert/") }'
+    80		- install 'assert'
+    81	If you don't want to include a polyfill, you can use an empty module like this:
+    82		resolve.fallback: { "assert": false }
+    83	 @ ../node_modules/ethereumjs-util/dist.browser/index.js 25:13-33
+    84	 @ ../node_modules/web3-utils/lib/utils.js 25:21-47
+    85	 @ ../node_modules/web3-utils/lib/index.js 24:12-33
+    86	 @ ../node_modules/web3/lib/index.js 35:12-33
+    87	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+    88	
+    89	ERROR in ../node_modules/ethereumjs-util/dist.browser/address.js 7:31-48
+    90	Module not found: Error: Can't resolve 'assert' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/ethereumjs-util/dist.browser'
+    91	
+    92	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+    93	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+    94	
+    95	If you want to include a polyfill, you need to:
+    96		- add a fallback 'resolve.fallback: { "assert": require.resolve("assert/") }'
+    97		- install 'assert'
+    98	If you don't want to include a polyfill, you can use an empty module like this:
+    99		resolve.fallback: { "assert": false }
+   100	 @ ../node_modules/ethereumjs-util/dist.browser/index.js 29:13-33
+   101	 @ ../node_modules/web3-utils/lib/utils.js 25:21-47
+   102	 @ ../node_modules/web3-utils/lib/index.js 24:12-33
+   103	 @ ../node_modules/web3/lib/index.js 35:12-33
+   104	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   105	
+   106	ERROR in ../node_modules/ethereumjs-util/dist.browser/object.js 7:31-48
+   107	Module not found: Error: Can't resolve 'assert' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/ethereumjs-util/dist.browser'
+   108	
+   109	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   110	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   111	
+   112	If you want to include a polyfill, you need to:
+   113		- add a fallback 'resolve.fallback: { "assert": require.resolve("assert/") }'
+   114		- install 'assert'
+   115	If you don't want to include a polyfill, you can use an empty module like this:
+   116		resolve.fallback: { "assert": false }
+   117	 @ ../node_modules/ethereumjs-util/dist.browser/index.js 45:13-32
+   118	 @ ../node_modules/web3-utils/lib/utils.js 25:21-47
+   119	 @ ../node_modules/web3-utils/lib/index.js 24:12-33
+   120	 @ ../node_modules/web3/lib/index.js 35:12-33
+   121	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   122	
+   123	ERROR in ../node_modules/readable-stream/lib/_stream_readable.js 32:9-39
+   124	Module not found: Error: Can't resolve 'events' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/readable-stream/lib'
+   125	
+   126	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   127	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   128	
+   129	If you want to include a polyfill, you need to:
+   130		- add a fallback 'resolve.fallback: { "events": require.resolve("events/") }'
+   131		- install 'events'
+   132	If you don't want to include a polyfill, you can use an empty module like this:
+   133		resolve.fallback: { "events": false }
+   134	 @ ../node_modules/readable-stream/readable-browser.js 1:10-63
+   135	 @ ../node_modules/browserify-sign/browser/index.js 3:13-39
+   136	 @ ../node_modules/crypto-browserify/index.js 39:11-37
+   137	 @ ../node_modules/web3-eth-accounts/lib/index.js 26:45-73
+   138	 @ ../node_modules/web3-eth/lib/index.js 33:15-43
+   139	 @ ../node_modules/web3/lib/index.js 30:10-29
+   140	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   141	
+   142	ERROR in ../node_modules/readable-stream/lib/internal/streams/stream-browser.js 1:0-47
+   143	Module not found: Error: Can't resolve 'events' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/readable-stream/lib/internal/streams'
+   144	
+   145	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   146	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   147	
+   148	If you want to include a polyfill, you need to:
+   149		- add a fallback 'resolve.fallback: { "events": require.resolve("events/") }'
+   150		- install 'events'
+   151	If you don't want to include a polyfill, you can use an empty module like this:
+   152		resolve.fallback: { "events": false }
+   153	 @ ../node_modules/readable-stream/lib/_stream_readable.js 42:13-49
+   154	 @ ../node_modules/readable-stream/readable-browser.js 1:10-63
+   155	 @ ../node_modules/browserify-sign/browser/index.js 3:13-39
+   156	 @ ../node_modules/crypto-browserify/index.js 39:11-37
+   157	 @ ../node_modules/web3-eth-accounts/lib/index.js 26:45-73
+   158	 @ ../node_modules/web3-eth/lib/index.js 33:15-43
+   159	 @ ../node_modules/web3/lib/index.js 30:10-29
+   160	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   161	
+   162	ERROR in ../node_modules/web3-eth-accounts/lib/index.js 26:76-93
+   163	Module not found: Error: Can't resolve 'crypto' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/web3-eth-accounts/lib'
+   164	
+   165	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   166	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   167	
+   168	If you want to include a polyfill, you need to:
+   169		- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+   170		- install 'crypto-browserify'
+   171	If you don't want to include a polyfill, you can use an empty module like this:
+   172		resolve.fallback: { "crypto": false }
+   173	 @ ../node_modules/web3-eth/lib/index.js 33:15-43
+   174	 @ ../node_modules/web3/lib/index.js 30:10-29
+   175	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   176	
+   177	ERROR in ../node_modules/web3-eth-accounts/node_modules/eth-lib/lib/bytes.js 7:193-227
+   178	Module not found: Error: Can't resolve 'crypto' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/web3-eth-accounts/node_modules/eth-lib/lib'
+   179	
+   180	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   181	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   182	
+   183	If you want to include a polyfill, you need to:
+   184		- add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+   185		- install 'crypto-browserify'
+   186	If you don't want to include a polyfill, you can use an empty module like this:
+   187		resolve.fallback: { "crypto": false }
+   188	 @ ../node_modules/web3-eth-accounts/node_modules/eth-lib/lib/account.js 1:14-32
+   189	 @ ../node_modules/web3-eth-accounts/lib/index.js 25:14-44
+   190	 @ ../node_modules/web3-eth/lib/index.js 33:15-43
+   191	 @ ../node_modules/web3/lib/index.js 30:10-29
+   192	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   193	
+   194	ERROR in ../node_modules/web3-providers-http/lib/index.js 26:11-26
+   195	Module not found: Error: Can't resolve 'http' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/web3-providers-http/lib'
+   196	
+   197	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   198	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   199	
+   200	If you want to include a polyfill, you need to:
+   201		- add a fallback 'resolve.fallback: { "http": require.resolve("stream-http") }'
+   202		- install 'stream-http'
+   203	If you don't want to include a polyfill, you can use an empty module like this:
+   204		resolve.fallback: { "http": false }
+   205	 @ ../node_modules/web3-core-requestmanager/lib/index.js 45:18-48
+   206	 @ ../node_modules/web3-core/lib/index.js 22:23-58
+   207	 @ ../node_modules/web3/lib/index.js 29:11-31
+   208	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   209	
+   210	ERROR in ../node_modules/web3-providers-http/lib/index.js 27:12-28
+   211	Module not found: Error: Can't resolve 'https' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/web3-providers-http/lib'
+   212	
+   213	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   214	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   215	
+   216	If you want to include a polyfill, you need to:
+   217		- add a fallback 'resolve.fallback: { "https": require.resolve("https-browserify") }'
+   218		- install 'https-browserify'
+   219	If you don't want to include a polyfill, you can use an empty module like this:
+   220		resolve.fallback: { "https": false }
+   221	 @ ../node_modules/web3-core-requestmanager/lib/index.js 45:18-48
+   222	 @ ../node_modules/web3-core/lib/index.js 22:23-58
+   223	 @ ../node_modules/web3/lib/index.js 29:11-31
+   224	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   225	
+   226	ERROR in ../node_modules/web3-providers-ws/lib/helpers.js 9:14-28
+   227	Module not found: Error: Can't resolve 'url' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/web3-providers-ws/lib'
+   228	
+   229	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   230	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   231	
+   232	If you want to include a polyfill, you need to:
+   233		- add a fallback 'resolve.fallback: { "url": require.resolve("url/") }'
+   234		- install 'url'
+   235	If you don't want to include a polyfill, you can use an empty module like this:
+   236		resolve.fallback: { "url": false }
+   237	 @ ../node_modules/web3-providers-ws/lib/index.js 24:14-37
+   238	 @ ../node_modules/web3-core-requestmanager/lib/index.js 44:23-51
+   239	 @ ../node_modules/web3-core/lib/index.js 22:23-58
+   240	 @ ../node_modules/web3/lib/index.js 29:11-31
+   241	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   242	
+   243	ERROR in ../node_modules/xhr2-cookies/dist/xml-http-request.js 21:11-26
+   244	Module not found: Error: Can't resolve 'http' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/xhr2-cookies/dist'
+   245	
+   246	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   247	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   248	
+   249	If you want to include a polyfill, you need to:
+   250		- add a fallback 'resolve.fallback: { "http": require.resolve("stream-http") }'
+   251		- install 'stream-http'
+   252	If you don't want to include a polyfill, you can use an empty module like this:
+   253		resolve.fallback: { "http": false }
+   254	 @ ../node_modules/xhr2-cookies/dist/index.js 6:9-38
+   255	 @ ../node_modules/web3-providers-http/lib/index.js 25:11-49
+   256	 @ ../node_modules/web3-core-requestmanager/lib/index.js 45:18-48
+   257	 @ ../node_modules/web3-core/lib/index.js 22:23-58
+   258	 @ ../node_modules/web3/lib/index.js 29:11-31
+   259	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   260	
+   261	ERROR in ../node_modules/xhr2-cookies/dist/xml-http-request.js 22:12-28
+   262	Module not found: Error: Can't resolve 'https' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/xhr2-cookies/dist'
+   263	
+   264	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   265	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   266	
+   267	If you want to include a polyfill, you need to:
+   268		- add a fallback 'resolve.fallback: { "https": require.resolve("https-browserify") }'
+   269		- install 'https-browserify'
+   270	If you don't want to include a polyfill, you can use an empty module like this:
+   271		resolve.fallback: { "https": false }
+   272	 @ ../node_modules/xhr2-cookies/dist/index.js 6:9-38
+   273	 @ ../node_modules/web3-providers-http/lib/index.js 25:11-49
+   274	 @ ../node_modules/web3-core-requestmanager/lib/index.js 45:18-48
+   275	 @ ../node_modules/web3-core/lib/index.js 22:23-58
+   276	 @ ../node_modules/web3/lib/index.js 29:11-31
+   277	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   278	
+   279	ERROR in ../node_modules/xhr2-cookies/dist/xml-http-request.js 23:9-22
+   280	Module not found: Error: Can't resolve 'os' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/xhr2-cookies/dist'
+   281	
+   282	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   283	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   284	
+   285	If you want to include a polyfill, you need to:
+   286		- add a fallback 'resolve.fallback: { "os": require.resolve("os-browserify/browser") }'
+   287		- install 'os-browserify'
+   288	If you don't want to include a polyfill, you can use an empty module like this:
+   289		resolve.fallback: { "os": false }
+   290	 @ ../node_modules/xhr2-cookies/dist/index.js 6:9-38
+   291	 @ ../node_modules/web3-providers-http/lib/index.js 25:11-49
+   292	 @ ../node_modules/web3-core-requestmanager/lib/index.js 45:18-48
+   293	 @ ../node_modules/web3-core/lib/index.js 22:23-58
+   294	 @ ../node_modules/web3/lib/index.js 29:11-31
+   295	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   296	
+   297	ERROR in ../node_modules/xhr2-cookies/dist/xml-http-request.js 24:10-24
+   298	Module not found: Error: Can't resolve 'url' in '/mySrc1/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/node_modules/xhr2-cookies/dist'
+   299	
+   300	BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+   301	This is no longer the case. Verify if you need this module and configure a polyfill for it.
+   302	
+   303	If you want to include a polyfill, you need to:
+   304		- add a fallback 'resolve.fallback: { "url": require.resolve("url/") }'
+   305		- install 'url'
+   306	If you don't want to include a polyfill, you can use an empty module like this:
+   307		resolve.fallback: { "url": false }
+   308	 @ ../node_modules/xhr2-cookies/dist/index.js 6:9-38
+   309	 @ ../node_modules/web3-providers-http/lib/index.js 25:11-49
+   310	 @ ../node_modules/web3-core-requestmanager/lib/index.js 45:18-48
+   311	 @ ../node_modules/web3-core/lib/index.js 22:23-58
+   312	 @ ../node_modules/web3/lib/index.js 29:11-31
+   313	 @ ./src/index.js 1:0-24 62:19-23 67:19-23 67:28-55
+   314	
+   315	17 errors have detailed information that is not shown.
+   316	Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+   317	
+   318	webpack 5.73.0 compiled with 17 errors and 1 warning in 18048 ms
